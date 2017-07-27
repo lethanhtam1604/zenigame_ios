@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "status": "200"
+    },
+    "data": {
+        "programinfolist": [
+            {
+                "channelid": "d541b57696ba766992551dbc2317c4887fdfed395204ce48f068a332f9f1a333",
+                "programinfo": {
+                    "title": "杉山チャンネル配信",
+                    "timing": "30",
+                    "openrange": "1",
+                    "text": "配信コメント",
+                    "type": "1",
+                    "newlist": "1",
+                    "notice": "1",
+                    "duration": "60"
+                }
+            }
+        ]
+    }
+}

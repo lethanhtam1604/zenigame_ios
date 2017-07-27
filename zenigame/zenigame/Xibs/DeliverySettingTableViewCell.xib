@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="DeliverySettingTableViewCell" customModule="zenigame" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9mZ-0g-vHl">
+                        <rect key="frame" x="8" y="8" width="182" height="28"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="state" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x3r-Uj-cWi">
+                        <rect key="frame" x="198" y="0.0" width="122" height="44"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="122" id="OQG-3x-yAT"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="x3r-Uj-cWi" secondAttribute="bottom" id="2zY-7e-Cfw"/>
+                    <constraint firstItem="x3r-Uj-cWi" firstAttribute="leading" secondItem="9mZ-0g-vHl" secondAttribute="trailing" constant="8" id="FLO-Ej-PSm"/>
+                    <constraint firstItem="9mZ-0g-vHl" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="LWv-ye-Whu"/>
+                    <constraint firstItem="x3r-Uj-cWi" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="OoE-c5-MoZ"/>
+                    <constraint firstAttribute="trailing" secondItem="x3r-Uj-cWi" secondAttribute="trailing" id="TzJ-Rx-pN3"/>
+                    <constraint firstAttribute="bottom" secondItem="9mZ-0g-vHl" secondAttribute="bottom" constant="8" id="Zxk-I0-g9v"/>
+                    <constraint firstItem="9mZ-0g-vHl" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="iYJ-Kl-bzD"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="stateLabel" destination="x3r-Uj-cWi" id="Qhb-xm-ESa"/>
+                <outlet property="titleLabel" destination="9mZ-0g-vHl" id="P8P-hZ-f27"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,29 @@
+{
+    "data": {
+        "castdata": {
+            "name": "BNID000002679317"
+        },
+        "channeldata": [
+            {
+                "channelid": "d541b57696ba766992551dbc2317c4887fdfed395204ce48f068a332f9f1a333",
+                "doc": "番組説明番組説明番組説明番組説明番組説明",
+                "imageurl": "https://876tvliveapi-dev-channel-or-jp.s3-ap-northeast-1.amazonaws.com/channel/thumbnail/d541b57696ba766992551dbc2317c4887fdfed395204ce48f068a332f9f1a333%20/",
+                "programdata": [
+                    {
+                        "programid": "38560dfac6ca65d52277eea2502701d421876ef59f56f49a2ed9b32b781468a8"
+                    },
+                    {
+                        "programid": "55db89c83980690f8d176960a6ad8b8a85eca0e98e352e54bf03c3c8e17604c9"
+                    },
+                    {
+                        "programid": "95b3cb3fb536a11eb42316079a85d224b582ad5eb859c40832d29862d34b9283"
+                    }
+                ],
+                "title": "杉山チャンネル"
+            }
+        ]
+    },
+    "meta": {
+        "status": "200"
+    }
+}

@@ -1,0 +1,21 @@
+//
+//  DeliveryReservationViewController.swift
+//  zenigame
+//
+//  Created by 笹野駿 on 2017/06/20.
+//  Copyright © 2017年 Anime Consortium Japan. All rights reserved.
+//
+
+import UIKit
+
+class DeliveryReservationViewController: BaseViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+    }
+
+}

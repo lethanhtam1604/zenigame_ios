@@ -1,0 +1,24 @@
+{
+    "meta": {
+        "status": "200"
+    },
+    "data": {
+        "channellist": [
+            {
+                "channelid": "d541b57696ba766992551dbc2317c4887fdfed395204ce48f068a332f9f1a333",
+                "programlist": [
+                    {
+                        "programid": "55db89c83980690f8d176960a6ad8b8a85eca0e98e352e54bf03c3c8e17604c9",
+                        "startdate": "2017-07-14 17:26:27",
+                        "enddate": "2017-07-14 18:26:27"
+                    },
+                    {
+                        "programid": "95b3cb3fb536a11eb42316079a85d224b582ad5eb859c40832d29862d34b9283",
+                        "startdate": "2017-07-15 20:45:00",
+                        "enddate": "2017-07-15 21:45:00"
+                    }
+                ]
+            }
+        ]
+    }
+}

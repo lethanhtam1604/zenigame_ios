@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="68" id="KGk-i7-Jjw" customClass="MenuTableViewCell" customModule="zenigame_viewer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="322" height="68"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="322" height="67.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="t8F-zu-bxx">
+                        <rect key="frame" x="10" y="18.5" width="30" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="bZP-hT-iw7"/>
+                            <constraint firstAttribute="width" constant="30" id="jy0-ii-NYs"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ba-p4-MgX">
+                        <rect key="frame" x="50" y="10" width="242" height="48"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3lA-Ks-z0n">
+                        <rect key="frame" x="297" y="23" width="20" height="20"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zf7-JP-v6v">
+                                <rect key="frame" x="3" y="3" width="14" height="14"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="14" id="Mvf-9z-wrL"/>
+                                    <constraint firstAttribute="height" constant="14" id="fiB-78-FO0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="0nn-Pq-Egk"/>
+                            <constraint firstItem="zf7-JP-v6v" firstAttribute="centerY" secondItem="3lA-Ks-z0n" secondAttribute="centerY" id="k8u-ga-XHH"/>
+                            <constraint firstAttribute="height" constant="20" id="ltF-se-4oW"/>
+                            <constraint firstItem="zf7-JP-v6v" firstAttribute="centerX" secondItem="3lA-Ks-z0n" secondAttribute="centerX" id="ukM-TT-cJr"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="t8F-zu-bxx" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="3xE-9V-vMk"/>
+                    <constraint firstItem="9ba-p4-MgX" firstAttribute="leading" secondItem="t8F-zu-bxx" secondAttribute="trailing" constant="10" id="4X6-AI-BKG"/>
+                    <constraint firstAttribute="bottom" secondItem="9ba-p4-MgX" secondAttribute="bottom" constant="10" id="LRg-aZ-rxD"/>
+                    <constraint firstItem="3lA-Ks-z0n" firstAttribute="leading" secondItem="9ba-p4-MgX" secondAttribute="trailing" constant="5" id="UmF-Ut-kkA"/>
+                    <constraint firstAttribute="trailing" secondItem="3lA-Ks-z0n" secondAttribute="trailing" constant="5" id="c8p-ew-A5J"/>
+                    <constraint firstItem="9ba-p4-MgX" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="hfs-aa-dos"/>
+                    <constraint firstItem="3lA-Ks-z0n" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="l4U-vn-Imd"/>
+                    <constraint firstItem="t8F-zu-bxx" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="pIC-Rc-N0g"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="badgeView" destination="3lA-Ks-z0n" id="yNa-eG-hts"/>
+                <outlet property="iconImgView" destination="t8F-zu-bxx" id="7aO-ws-9WX"/>
+                <outlet property="numberOfBadgeLabel" destination="zf7-JP-v6v" id="2P1-IT-0sq"/>
+                <outlet property="titleLabel" destination="9ba-p4-MgX" id="mF6-Wf-fO9"/>
+            </connections>
+            <point key="canvasLocation" x="35" y="66"/>
+        </tableViewCell>
+    </objects>
+</document>

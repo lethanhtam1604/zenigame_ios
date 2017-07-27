@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Banner View Controller-->
+        <scene sceneID="6k8-Is-XpQ">
+            <objects>
+                <viewController storyboardIdentifier="BannerViewController" id="uPh-ku-yR8" customClass="BannerViewController" customModule="zenigame" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nk9-X9-K2R"/>
+                        <viewControllerLayoutGuide type="bottom" id="sPF-Hb-BNm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aQC-Na-BJP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lP9-3N-NpA">
+                                <rect key="frame" x="5" y="0.0" width="365" height="180"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="180" id="i7r-fN-sfg"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Afd-cr-7Jz">
+                                <rect key="frame" x="188.5" y="90.5" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="lP9-3N-NpA" firstAttribute="leading" secondItem="aQC-Na-BJP" secondAttribute="leading" constant="5" id="K7N-py-7Jd"/>
+                            <constraint firstAttribute="trailing" secondItem="lP9-3N-NpA" secondAttribute="trailing" constant="5" id="Ywq-Jg-FMt"/>
+                            <constraint firstItem="lP9-3N-NpA" firstAttribute="top" secondItem="nk9-X9-K2R" secondAttribute="bottom" id="b3W-jk-yvg"/>
+                            <constraint firstItem="Afd-cr-7Jz" firstAttribute="centerX" secondItem="lP9-3N-NpA" secondAttribute="centerX" id="rFU-a9-kbN"/>
+                            <constraint firstItem="Afd-cr-7Jz" firstAttribute="centerY" secondItem="lP9-3N-NpA" secondAttribute="centerY" id="xkx-gO-ndi"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <connections>
+                        <outlet property="imageView" destination="lP9-3N-NpA" id="eZq-LP-aqw"/>
+                        <outlet property="titleLabel" destination="Afd-cr-7Jz" id="uVr-A9-AjX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mVO-zY-oh5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="248.72563718140933"/>
+        </scene>
+    </scenes>
+</document>

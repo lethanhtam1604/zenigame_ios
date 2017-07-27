@@ -1,0 +1,74 @@
+PODS:
+  - Alamofire (4.4.0)
+  - FontAwesomeKit (2.2.1):
+    - FontAwesomeKit/Core (= 2.2.1)
+    - FontAwesomeKit/FontAwesome (= 2.2.1)
+    - FontAwesomeKit/FoundationIcons (= 2.2.1)
+    - FontAwesomeKit/IonIcons (= 2.2.1)
+    - FontAwesomeKit/Material (= 2.2.1)
+    - FontAwesomeKit/Octicons (= 2.2.1)
+    - FontAwesomeKit/Zocial (= 2.2.1)
+  - FontAwesomeKit/Core (2.2.1)
+  - FontAwesomeKit/FontAwesome (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/FoundationIcons (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/IonIcons (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/Material (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/Octicons (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/Zocial (2.2.1):
+    - FontAwesomeKit/Core
+  - IQKeyboardManager (4.0.9)
+  - Kingfisher (3.10.1)
+  - LFLiveKit (2.6)
+  - ObjectMapper (2.2.7)
+  - OHHTTPStubs/Core (6.0.0)
+  - OHHTTPStubs/Default (6.0.0):
+    - OHHTTPStubs/Core
+    - OHHTTPStubs/JSON
+    - OHHTTPStubs/NSURLSession
+    - OHHTTPStubs/OHPathHelpers
+  - OHHTTPStubs/JSON (6.0.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/NSURLSession (6.0.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/OHPathHelpers (6.0.0)
+  - OHHTTPStubs/Swift (6.0.0):
+    - OHHTTPStubs/Default
+  - PureLayout (3.0.2)
+  - SlideMenuControllerSwift (3.0.1)
+  - SwiftLint (0.18.1)
+  - SwiftOverlays (3.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - FontAwesomeKit
+  - IQKeyboardManager
+  - Kingfisher (~> 3.0)
+  - LFLiveKit (~> 2.6)
+  - ObjectMapper (~> 2.2)
+  - OHHTTPStubs/Swift
+  - PureLayout
+  - SlideMenuControllerSwift (~> 3.0.1)
+  - SwiftLint (~> 0.18.0)
+  - SwiftOverlays
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  FontAwesomeKit: 3614979b3dbb0ec3f7fac1bd760b91f66c31db67
+  IQKeyboardManager: 322c7405df3eb5f7e50dede32ea937bf3d4364e0
+  Kingfisher: 33a1b82140fcb14a9fc13f78dfde2a03ff8de8cb
+  LFLiveKit: 2219563721f8aa0f188effc3395a06e2d53b23f2
+  ObjectMapper: 65abcfd9a61cf7396cbd14a4fb22fddfcc46577e
+  OHHTTPStubs: 752f9b11fd810a15162d50f11c06ff94f8e012eb
+  PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
+  SlideMenuControllerSwift: 9a163b16d54afab734add42858cba7ef7c307755
+  SwiftLint: b467d08f5b25dc3b3cfed243d8e1b74b91714c67
+  SwiftOverlays: 4cdd9e4f5c7817fb6348882059eb697e11685fad
+
+PODFILE CHECKSUM: d62fa281b67bd4265f383404bf0cb3af211c0885
+
+COCOAPODS: 1.2.1

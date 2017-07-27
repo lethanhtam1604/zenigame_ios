@@ -1,0 +1,29 @@
+disabled_rules:
+  - void_return # () -> ()を許容
+  - cyclomatic_complexity # メソッドの複雑さ判定しない
+  - type_body_length # クラスの行数
+  - function_body_length # メソッドの行数
+  - file_length # ファイルの行数
+  - line_length # 行の文字数
+opt_in_rules:
+  - closure_spacing # クロージャ内の式に1つのスペースを置く
+  - conditional_returns_on_newline # ワンライナーのif文を許容しない
+  - empty_count # zero-lengthはisEmptyを使用する
+  - force_unwrapping # アンラップを許容しない
+  - operator_usage_whitespace # 演算記号の前後に1つのスペースを置く
+  - overridden_super_call # Overrideしたメソッドはsuperを呼ぶ
+  - private_outlet # @IBOutletはprivate修飾子を付与する
+  - redundant_nil_coalescing # 左辺がnilを許容している場合、明示的にnilを代入しない
+  - switch_case_on_newline # switchのcaseは改行する
+included:
+  - zenigame
+excluded:
+  - zenigame/Global
+  - zenigame/Extensions
+  - zenigame/Manager
+  - zenigameTests
+  - zenigameUITests
+line_length: 144 # プロジェクト初期での最長
+variable_name:
+  excluded: # 2文字以下の変数許可リスト
+    - id
